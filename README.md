@@ -85,6 +85,21 @@
 ```
 
 - 예시: `PGS: 조건 문자열`
+  <br />
+  <br />
+  <br />
+
+<!-- Lv.0 rgb(33, 137, 255)
+Lv.1 rgb(27, 186, 255)
+Lv.2 rgb(71, 200, 76)
+Lv.3 rgb(255, 168, 0) -->
+
+<!-- 프로그래머스 로고 : <div style="padding-top: 5px;"><img height="25px" width="25px" src="./public/svg/pgs.svg" alt="프로그래머스"/></div> -->
+
+|   날짜   |                                    번호                                    |                                      제목                                       |                                        난이도                                         |                                                         출처                                                         |                                       풀이                                        |      문제유형      |
+| :------: | :------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: | :----------------: |
+| 24/03/13 | [181934](https://school.programmers.co.kr/learn/courses/30/lessons/181934) | [조건 문자열](https://school.programmers.co.kr/learn/courses/30/lessons/181934) | <span style="color: rgb(33, 137, 255);font-weight: 700; font-size: 14px;">Lv.0</span> | <div style="padding-top: 5px;"><img height="25px" width="25px" src="./public/svg/pgs.svg" alt="프로그래머스"/></div> | [`hongjw030`](https://github.com/StudyForYou/Algo-Rhythm/tree/main/hongjw030)<br> |      코딩 기초 트레이닝      |
+| 24/03/13 |  [12950](https://school.programmers.co.kr/learn/courses/30/lessons/12950)  | [행렬의 덧셈](https://school.programmers.co.kr/learn/courses/30/lessons/12950)  | <span style="color: rgb(27, 186, 255);font-weight: 700; font-size: 14px;">Lv.1</span> | <div style="padding-top: 5px;"><img height="25px" width="25px" src="./public/svg/pgs.svg" alt="프로그래머스"/></div> | [`hyejungan`](https://github.com/StudyForYou/Algo-Rhythm/tree/main/hyejungan)<br> |          연습문제          |
 
 ---
 
