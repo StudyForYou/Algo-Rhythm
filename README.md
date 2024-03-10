@@ -15,7 +15,7 @@
   <tbody>
     <tr>
       <td align="center"><a href="https://github.com/Ssong-Q" target="_blank">
-      <img width=200px src="/Algo-Rhythm/public/image/송규경.jpeg" alt="송규경"/><br />
+      <img width=200px src="./public/image/송규경.jpeg" alt="송규경"/><br />
       <sub><b>송규경</b></sub></a><br /></td>
       <td align="center"><a href="https://github.com/ngsy" target="_blank">
       <img width=200px src="/Algo-Rhythm/public/image/남궁수영.jpeg" alt="남궁수영"/><br />
@@ -90,5 +90,5 @@
 
 ##### 해당 README는 다음 Repository를 참고하여 제작하였습니다.
 
-[Algorithm Study](https://github.com/CodeSquad-2023-BE-Study/Algorithm-Study/tree/main)
+[Algorithm Study](https://github.com/CodeSquad-2023-BE-Study/Algorithm-Study/tree/main) <br/>
 [Coding-Study](https://github.com/CodeJaws/Coding-Study)
