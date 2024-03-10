@@ -18,21 +18,21 @@
       <img width=200px src="./public/image/송규경.jpeg" alt="송규경"/><br />
       <sub><b>송규경</b></sub></a><br /></td>
       <td align="center"><a href="https://github.com/ngsy" target="_blank">
-      <img width=200px src="/Algo-Rhythm/public/image/남궁수영.jpeg" alt="남궁수영"/><br />
+      <img width=200px src="./public/image/남궁수영.jpeg" alt="남궁수영"/><br />
       <sub><b>남궁수영</b></sub></a><br /></td>
       <td align="center"><a href="https://github.com/hongjw030" target="_blank">
-      <img width=200px src="/Algo-Rhythm/public/image/홍재원.jpeg" alt="홍재원"/><br />
+      <img width=200px src="./public/image/홍재원.jpeg" alt="홍재원"/><br />
       <sub><b>홍재원</b></sub></a><br /></td>
     </tr>
     <tr>
       <td align="center"><a href="https://github.com/SJvaca30" target="_blank">
-      <img width=200px src="/Algo-Rhythm/public/image/임석준.png" alt="임석준"/><br />
+      <img width=200px src="./public/image/임석준.png" alt="임석준"/><br />
       <sub><b>임석준</b></sub></a><br /></td>
       <td align="center"><a href="https://github.com/hyejungan" target="_blank">
-      <img width=200px src="/Algo-Rhythm/public/image/안혜정.png" alt="안혜정"/><br />
+      <img width=200px src="./public/image/안혜정.png" alt="안혜정"/><br />
       <sub><b>안혜정</b></sub></a><br /></td>
       <td align="center"><a href="https://github.com/SoobinJ" target="_blank">
-      <img width=200px src="/Algo-Rhythm/public/image/전수빈.jpeg" alt="전수빈"/><br />
+      <img width=200px src="./public/image/전수빈.jpeg" alt="전수빈"/><br />
       <sub><b>전수빈</b></sub></a><br /></td>
     </tr>
   </tbody>
