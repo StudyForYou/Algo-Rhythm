@@ -1,3 +1,14 @@
+/**
+ * 조건 문자열
+ *
+ * https://school.programmers.co.kr/learn/courses/30/lessons/181934
+ *
+ * @param {*} ineq
+ * @param {*} eq
+ * @param {*} n
+ * @param {*} m
+ * @returns
+ */
 function solution(ineq, eq, n, m) {
   let answer = 0;
 
@@ -13,3 +24,6 @@ function solution(ineq, eq, n, m) {
 
   return answer;
 }
+/**
+
+*/
