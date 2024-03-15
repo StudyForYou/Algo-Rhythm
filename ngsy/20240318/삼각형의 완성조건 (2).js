@@ -1,5 +1,5 @@
-/**직사각형 별찍기
- * https://school.programmers.co.kr/learn/courses/30/lessons/12969?language=javascript
+/**삼각형의 완성조건 (2) Lv.0
+ * https://school.programmers.co.kr/learn/courses/30/lessons/120868
  * a: 가장 긴 변
  * a < ( b + c)
  */
