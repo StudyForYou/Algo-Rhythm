@@ -4,14 +4,15 @@ function solution(n, m) {
   let max = Math.max(m, n);
   let min = Math.min(m, n);
 
-  let gcd = 1;
-  for(let i = min; i > 0; i--){
-    if (max % i === 0 && min % i === 0){
-      gcd = i;
-      break;
-    }
+  // 유클리드 호제법으로 gcd먼저 구함.
+  while(max % min != 0){
+    let temp = max % min;
+    max = min;
+    min = temp;
   }
-  
+  let gcd = min;
+
+  // gcd를 구하면 lcm을 구함.
   let lcm = Math.floor(n * m / gcd);
 
   return [gcd, lcm];
