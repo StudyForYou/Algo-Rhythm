@@ -5,5 +5,3 @@ function solution(s) {
   array.sort((a, b) => a-b );
   return `${array[0]} ${array[array.length -1]}`;
 }
-
-console.log(solution("-1 -2 -3 -4"))
