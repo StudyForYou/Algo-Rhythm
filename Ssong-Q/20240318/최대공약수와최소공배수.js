@@ -14,7 +14,7 @@ function solution(n, m) {
   const b = Math.max(n, m);
 
   // 최대공약수
-  for (let i = 2; i <= b; i++) {
+  for (let i = 2; i <= s; i++) {
     if (s % i === 0 && b % i === 0) gcd = i;
   }
 
