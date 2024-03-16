@@ -1,15 +1,15 @@
-/**JadenCase 문자열 만들기 Lv.2
+/**JadenCase 문자열 만들기
  * https://school.programmers.co.kr/learn/courses/30/lessons/12951
  *
  *
  */
 function solution(s) {
-  let str = s.split(" ").map((val) => {
-    let temp = val.toLowerCase();
-    if (0 * temp.charAt(0) !== 0)
-      temp = temp.charAt(0).toUpperCase() + temp.slice(1, temp.length);
-    return temp;
-  });
+  const str = s.split(" ").reduce((acc, cur) => {
+    acc.push(
+      cur.charAt(0).toUpperCase() + cur.toLowerCase().slice(1, cur.length)
+    );
+    return acc;
+  }, []);
 
   return str.join(" ");
 }
