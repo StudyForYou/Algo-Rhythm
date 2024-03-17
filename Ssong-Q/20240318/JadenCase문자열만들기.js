@@ -9,11 +9,13 @@ function solution(s) {
     temp = [];
 
   s.split(" ").forEach((val) => {
+    // 공백 처리
     if (val === "") {
       temp.push("");
       return;
     }
 
+    // 알파벳이 아닐 때 처리
     if (
       !(val[0].charCodeAt() >= 65 && val[0].charCodeAt() <= 90) &&
       !(val[0].charCodeAt() >= 97 && val[0].charCodeAt() <= 122)
