@@ -7,7 +7,7 @@ function solution(s) {
 
   // 맨 앞 글자, 나머지 글자를 나눠서 각각 변환한다.
   const JCW = words.map((word) => {
-    const first = word[0].toUpperCase();
+    const first = word.charAt(0).toUpperCase();
     const rest = word.slice(1).toLowerCase();
     return first + rest;
   });
