@@ -1,4 +1,4 @@
-//school.programmers.co.kr/learn/courses/30/lessons/12911
+// school.programmers.co.kr/learn/courses/30/lessons/12911
 
 /**
 1. n을 2진수로 변환

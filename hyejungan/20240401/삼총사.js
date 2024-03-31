@@ -15,3 +15,5 @@ function solution(number) {
   }
   return result;
 }
+
+
