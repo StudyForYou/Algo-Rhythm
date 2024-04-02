@@ -15,6 +15,5 @@ function solution(s) {
     }
   }
 
-  // 스택이 비어있으면 1 반환, 그렇지 않다면 0 반환
   return temp.length === 0 ? 1 : 0;
 }
