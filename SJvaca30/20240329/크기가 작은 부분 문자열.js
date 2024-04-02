@@ -1,5 +1,6 @@
 //school.programmers.co.kr/learn/courses/30/lessons/147355
 
+// 방법1
 function solution(t, p) {
   const tLen = t.length;
   const pLen = p.length;
@@ -24,4 +25,20 @@ function solution(t, p) {
 
   // p보다 작거나 같은 부분 문자열의 갯수 반환
   return count;
+}
+
+
+// 방법2
+function solution(t, p) {
+  let temp = "";
+  let answer = 0;
+  let tL = t.length
+  let pL = p.length
+  for( let i = 0; i <= tL-pL; i++) {
+      temp = Number(t.slice(i,i+pL));
+      if (temp <= Number(p)) {
+          answer += 1
+      }
+  }
+  return answer
 }
