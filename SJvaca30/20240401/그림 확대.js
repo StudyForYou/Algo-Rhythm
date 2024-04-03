@@ -24,18 +24,14 @@ function solution(picture, k) {
 function solution(picture, k) {
   return picture.flatMap((arr) =>
     // k개의 빈 배열을 생성, 각 배열을 fill()로 채움.
-    Array(k).fill(arr
-      // "x.x"를 ["x", ".", "x"]로 변환
-      .split("")
-      // ["x", ".", "x"]를 ["xxx", "...", "xxx"]로 변환
-      .map((char) => char.repeat(k))
-      // ["xxx", "...", "xxx"]를 "xxx...xxx"로 변환
-      .join("")
+    Array(k).fill(
+      arr
+        // "x.x"를 ["x", ".", "x"]로 변환
+        .split("")
+        // ["x", ".", "x"]를 ["xxx", "...", "xxx"]로 변환
+        .map((char) => char.repeat(k))
+        // ["xxx", "...", "xxx"]를 "xxx...xxx"로 변환
+        .join("")
     )
   );
 }
-/*
-function solution(picture, k) {
-    return picture.flatMap(line => Array(k).fill(line.split('').map(char => char.repeat(k)).join('')));
-}
-*/
