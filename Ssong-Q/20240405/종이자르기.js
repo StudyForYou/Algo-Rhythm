@@ -5,5 +5,3 @@ function solution(M, N) {
 
   return answer;
 }
-
-console.log(solution());
