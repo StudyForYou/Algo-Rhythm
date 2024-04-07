@@ -1,3 +1,4 @@
+// 좀더 깔쌈한 코드 없을까 싶지만.. 풀이자체는 어렵진 않았음니당
 function solution(keyinput, board) {
   let x = 0, y = 0;
   let maxX = Math.floor(board[0]/2);
