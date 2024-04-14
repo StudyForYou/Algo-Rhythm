@@ -7,3 +7,4 @@ function solution(n, words) {
   "흠.."
   return [0, 0];
 }
+
