@@ -1,9 +1,9 @@
 /**
  * URL https://school.programmers.co.kr/learn/courses/30/lessons/12985
- * @param {*} n
- * @param {*} a
- * @param {*} b
- * @returns
+ * @param {number} n
+ * @param {number} a
+ * @param {number} b
+ * @returns 팀번호가 1~n까지 있고 토너먼트로 게임을 할때, a와 b가 만나는 턴
  */
 function solution(n, a, b) {
   let team = new Array(n).fill().map((_, i) => i + 1);
