@@ -17,7 +17,6 @@ function solution(array, commands) {
 
     answer.push(arr[num3]);
   }
-  console.log(answer);
 
   return answer;
 }
