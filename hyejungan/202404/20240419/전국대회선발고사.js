@@ -12,5 +12,9 @@ function solution(rank, attendance) {
     }, [])
     .sort((a, b) => a[0] - b[0]);
 
+    //console.log(nR); [ [ 2, 2 ], [ 4, 4 ], [ 5, 3 ], [ 7, 1 ] ]  2번은 2등, 4번은 4등, 3번은 5등, 1번은 7등
+
   return nR[0][1] * 10000 + nR[1][1] * 100 + nR[2][1];
 }
+
+console.log(solution([3, 7, 2, 5, 4, 6, 1], [false, true, true, true, true, false, false]))
