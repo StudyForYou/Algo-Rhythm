@@ -15,7 +15,7 @@ function solution(food) {
     answer += String(num).repeat(Math.floor(newFood[i] / 2));
   }
   //첫번째 선수 순서를 정했으면 물(0)을 추가하고 이를 뒤집어서 두번째 선수의 음식 순서를 합쳐줌
-  answer = answer + "0" + [...answer].reverse().join("");
+  answer += `0${[...answer].reverse().join("")}`;
 
   return answer;
 }
