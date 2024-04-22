@@ -19,7 +19,7 @@ function solution(n, lost, reserve) {
 
   // 같은 것 제거한 것을 reserve에서 제거
   for (let idx = 0; idx < temp.length; idx++) {
-    const targetIdx = temp.findIndex((val) => val === reserve[idx]);
+    const targetIdx = reserve.findIndex((val) => val === temp[idx]);
     reserve.splice(targetIdx, 1);
   }
 
@@ -52,3 +52,4 @@ console.log(solution(3, [3], [1]));
 console.log(solution(5, [4, 5], [3, 4]));
 console.log(solution(5, [3, 4], [4, 3]));
 console.log(solution(5, [1, 3], [2, 5]));
+console.log(solution(4, [1, 4], [2, 3]));
